@@ -20,6 +20,10 @@ async function newsfetch() {
 
     img[0].src="https://static.wixstatic.com/media/44764b_8742a1151cb34cce9adf250e6bd49490~mv2.png/v1/fill/w_2048,h_2048,al_c/w3schools-2048.png";
     
+
+    for (let jane=0; jane < elementi.length; jane++) {
+        elementi[jane].innerHTML="<a href=\"https:\/\/it.wikipedia.org/wiki/"+json.programming_languages_popular[jane]+"\" target=\"_blank\">"+json.programming_languages_popular[jane]+"</a>";
+    }
 }
 
     
